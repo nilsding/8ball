@@ -75,7 +75,7 @@ namespace ball
                         {											
 		            		Console.WriteLine(""); 							
 					        Console.WriteLine("Press any key to continue...");
-							Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+							Console.ForegroundColor = ConsoleColor.Black; 	
 							Console.ReadKey();
 							Console.ForegroundColor = ConsoleColor.White;					 
 		                return;
@@ -91,7 +91,7 @@ namespace ball
                                 Console.Write("Warning");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write(": Leaving your name empty will change it back to \"You\"!");
-                                Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+                                Console.ForegroundColor = ConsoleColor.Black; 	
                                 Console.WriteLine("");
                             }
                             you = you_new;
@@ -104,7 +104,7 @@ namespace ball
                             Console.Write(" Your name was successfully changed to '{0}'!", you);
                             Console.WriteLine("");
                             Console.WriteLine("Press any key to continue...");
-                            Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+                            Console.ForegroundColor = ConsoleColor.Black; 	
                             Console.ReadKey();
                             Console.ForegroundColor = ConsoleColor.White;
                         }
@@ -121,7 +121,7 @@ namespace ball
                                 Console.Write("Warning");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write(": Leaving 8balls name empty will change it back to \"8ball\"!");
-                                Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+                                Console.ForegroundColor = ConsoleColor.Black; 	
                                 Console.WriteLine("");
                             }
                             answerer = answerer_new;
@@ -134,7 +134,7 @@ namespace ball
                             Console.Write(" 8balls name was successfully changed to '{0}'!", answerer);
                             Console.WriteLine("");
                             Console.WriteLine("Press any key to continue...");
-                            Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+                            Console.ForegroundColor = ConsoleColor.Black; 	
                             Console.ReadKey();
                             Console.ForegroundColor = ConsoleColor.White;
                         }
@@ -160,7 +160,7 @@ namespace ball
                             Console.WriteLine("");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.WriteLine("Press any key to continue...");
-                            Console.ForegroundColor = ConsoleColor.Black; 	// This should hide the pressed key.
+                            Console.ForegroundColor = ConsoleColor.Black; 	
                             Console.ReadKey();
                             Console.ForegroundColor = ConsoleColor.White;
                         }
