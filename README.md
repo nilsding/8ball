@@ -3,4 +3,4 @@
 
  * *case insensivity*
  * *clearing the history* 
- *changing the name of yourself and 8ball* inside the program without looking up the sourcecode.
+ * *changing the name of yourself and 8ball* inside the program without looking up the sourcecode.
