@@ -202,6 +202,11 @@ namespace ball
                             Console.WriteLine("pixeldesu | http://github.com/pixeldesu"); 	// Please keep this line.
                             Console.WriteLine("");
                             Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Source code available at:");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.WriteLine("GitHub | http://github.com/pixeldesu/8ball");
+                            Console.WriteLine("");
+                            Console.ForegroundColor = ConsoleColor.White;
                             Console.WriteLine("Content of the 8ball.txt");
                             Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.WriteLine("cyanrazorCel | http://youtube.com/cyanrazorCel"); // Keep this line too, except you made your own 8ball.txt. If you use some Contents of this 8ball.txt which is is in this version, please keep the copyright to cyanrazorCel.
