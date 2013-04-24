@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=8ball
+Terminal=true
+Comment=8ball - Answering Yes/No questions since 2010
+Exec=eightballs
+Categories=Utility;Game;
